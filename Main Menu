@@ -2,5 +2,5 @@ project = Linguist::Repository.from_directory(".")
 project.language.name  #=> "html"
 <!DOCTYPE html>
 <html>
-	
+	<div>Coast to Coast</div>	
 <html>
