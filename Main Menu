@@ -1,5 +1,15 @@
 project = Linguist::Repository.from_directory(".")
 project.language.name  #=> "html"
+  type: markup
+  ace_mode: html
+  aliases:
+  - xhtml
+  extensions:
+  - .html
+  - .htm
+  - .html.hl
+  - .st
+  - .xhtml
 <!DOCTYPE html>
 <html>
 	<div>Coast to Coast</div>	
